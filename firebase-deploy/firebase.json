@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "**/*.apk",
+        "headers": [
+          { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
+          { "key": "Content-Disposition", "value": "attachment; filename=\"office-attendance.apk\"" },
+          { "key": "Cache-Control", "value": "no-cache" }
+        ]
+      }
+    ]
+  }
+}

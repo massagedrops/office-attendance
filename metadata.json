@@ -1,0 +1,6 @@
+{
+  "name": "Office Attendance Manager",
+  "description": "Mobile-friendly QR code attendance management system with flexible shifts, bilingual Arabic/English support, and Excel reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
